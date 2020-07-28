@@ -1,0 +1,68 @@
+import React from "react";
+import s from "./Nav.module.css";
+
+const Nav = () => {
+    return (
+        <nav className={s.navigation}>
+            <ul>
+                <li>
+                    <a href="#1" title="Home">
+                  <span>
+                    <img src={"./img/home.png"} alt="Home" />
+                  </span>
+                        Home
+                    </a>
+                </li>
+                {/*<li>*/}
+                {/*    <a href="#1" title="Companies">*/}
+                {/*  <span>*/}
+                {/*    <img src={"./img/companies.png"} alt="Companies" />*/}
+                {/*  </span>*/}
+                {/*        Companies*/}
+                {/*    </a>*/}
+                {/*</li>*/}
+                {/*<li>*/}
+                {/*    <a href="#1" title="Projects">*/}
+                {/*  <span>*/}
+                {/*    <img src={"./img/projects.png"} alt="Projects" />*/}
+                {/*  </span>*/}
+                {/*        Projects*/}
+                {/*    </a>*/}
+                {/*</li>*/}
+                <li>
+                    <a href="/profiles" title="Profiles">
+                  <span>
+                    <img src={"./img/profiles.png"} alt="Profiles" />
+                  </span>
+                        Profiles
+                    </a>
+                </li>
+                {/*<li>*/}
+                {/*    <a href="#1" title="Jobs">*/}
+                {/*  <span>*/}
+                {/*    <img src={"./img/jobs.png"} alt="Jobs" />*/}
+                {/*  </span>*/}
+                {/*        Jobs*/}
+                {/*    </a>*/}
+                {/*</li>*/}
+                <li>
+                    <a href="#1" title="Messages">
+                  <span>
+                    <img src={"./img/messages.png"} alt="Messages" />
+                  </span>
+                        Messages
+                    </a>
+                </li>
+                <li>
+                    <a href="#1" title="Notification">
+                  <span>
+                    <img src={"./img/notification.png"} alt="Notification" />
+                  </span>
+                        Notification
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    )
+}
+export default Nav
