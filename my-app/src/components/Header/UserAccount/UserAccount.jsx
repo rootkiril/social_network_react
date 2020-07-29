@@ -5,8 +5,8 @@ const UserAccount = () => {
     return (
         <div className={s.userAccount}>
             <div className={s.userInfo}>
-                <img src={"./img/user.png"} alt=""/>
-                <a href="#1">John</a>
+                <img src={"./img/user.png"} alt="User Profile"/>
+                <a href="/profile" title="User Profile">Kiril</a>
             </div>
         </div>
     );

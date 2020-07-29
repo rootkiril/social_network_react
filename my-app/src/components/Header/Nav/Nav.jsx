@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className={s.navigation}>
             <ul>
                 <li>
-                    <a href="#1" title="Home">
+                    <a href="/index" title="Home">
                   <span>
                     <img src={"./img/home.png"} alt="Home" />
                   </span>
@@ -46,15 +46,15 @@ const Nav = () => {
                 {/*    </a>*/}
                 {/*</li>*/}
                 <li>
-                    <a href="#1" title="Messages">
+                    <a href="/dialogs" title="Dialogs">
                   <span>
-                    <img src={"./img/messages.png"} alt="Messages" />
+                    <img src={"./img/dialogs.png"} alt="Dialogs" />
                   </span>
-                        Messages
+                        Dialogs
                     </a>
                 </li>
                 <li>
-                    <a href="#1" title="Notification">
+                    <a href="/notification" title="Notification">
                   <span>
                     <img src={"./img/notification.png"} alt="Notification" />
                   </span>

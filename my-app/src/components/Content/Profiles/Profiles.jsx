@@ -9,7 +9,6 @@ const Profiles = () => {
             </div>
             <div className={s.profilesList}>
                 <div className="row">
-                    1
                 </div>
             </div>
         </div>

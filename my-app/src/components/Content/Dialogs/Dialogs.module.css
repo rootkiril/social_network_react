@@ -1,0 +1,359 @@
+.messagesSec {
+    float: left;
+    width: 100%;
+}
+
+.noPdd {
+    padding: 0;
+}
+
+.msgList {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.msgTitle {
+    float: left;
+    width: 100%;
+    padding: 36px 20px;
+}
+
+.msgTitle > h3 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+}
+
+.msgTitle > ul {
+    float: right;
+    position: relative;
+    top: 1px;
+}
+
+.msgTitle ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.msgTitle ul li a {
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.messagesList {
+    float: left;
+    width: 100%;
+}
+
+.messagesList ul {
+    float: left;
+    width: 100%;
+}
+
+.messagesList ul li {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #eeeeee;
+    cursor: pointer;
+}
+
+.messagesList ul li.active {
+    background-color: #efefef;
+}
+
+.usrMsgDetails {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.usrMsImg {
+    float: left;
+    width: 50px;
+    position: relative;
+}
+
+.usrMsImg img {
+    width: 100%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.msgStatus {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #e44d3a;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+}
+
+.messagesList ul li.active .msgStatus {
+    border: 2px solid #ecf5fb;
+    height: 10px;
+    width: 10px;
+}
+
+.usrMgInfo {
+    float: left;
+    padding-left: 13px;
+    margin-top: 4px;
+}
+
+.usrMgInfo h3 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.usrMgInfo p {
+    color: #686868;
+    font-size: 16px;
+}
+
+.usrMgInfo p img {
+    float: right;
+    position: relative;
+    top: 5px;
+    padding-left: 5px;
+}
+
+.postedTime {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    color: #b2b2b2;
+    font-size: 14px;
+}
+
+.msgNotifc {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #e77667;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.pdRightNone {
+    padding-right: 0;
+}
+
+.pdLeftNone {
+    padding-left: 0;
+}
+
+.mainConversationBox {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.messageBarHead {
+    float: left;
+    width: 100%;
+    /*background-color: #fff;*/
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+
+.messageBarHead .usrMsgDetails {
+    float: left;
+    width: auto;
+}
+
+.messagesLine {
+    float: left;
+    width: 100%;
+    height: 604px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.messagesBlock {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr;
+    max-height: none;
+}
+
+.mainMessageBox {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15.5px;
+}
+
+.messgUsrImg {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    width: 50px;
+}
+
+.messgUsrImg img {
+    width: 100%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.mainMessageBox {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15.5px;
+}
+
+.mainMessageBox.taRight {
+    float: right;
+}
+
+.messageDt {
+    float: left;
+    width: auto;
+    padding-left: 85px;
+}
+
+.mainMessageBox.taRight .messageDt {
+    padding-left: 0;
+    padding-right: 85px;
+}
+
+.messageInnerDt {
+    float: left;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.messageInnerDt > p {
+    float: right;
+    width: 60%;
+    background-color: #e44d3a;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 35px 10px 35px;
+    color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.messageDt > span {
+    color: #b2b2b2;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.mainMessageBox.taRight .messageDt > span {
+    float: right;
+    width: auto;
+}
+
+.mainMessageBox.taRight .messgUsrImg {
+    left: auto;
+    right: 20px;
+    bottom: 25px;
+}
+
+
+.messageSendArea {
+    float: left;
+    width: 100%;
+    background-color: #f3f5f7;
+    padding: 25px 20px 15px 20px;
+    border: 1px solid #eeeeee;
+}
+
+.messageSendArea form {
+    float: left;
+    width: 100%;
+}
+
+.mfField {
+    float: left;
+    width: 100%;
+}
+
+.mfField input {
+    float: left;
+    width: 80%;
+    background-color: #fff;
+    color: #b2b2b2;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1px solid #e6e6e6;
+    height: 45px;
+}
+
+.mfField button {
+    float: left;
+    width: 17%;
+    background-color: #e44d3a;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.messageSendArea form > ul {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.messageSendArea form > ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.messageSendArea form > ul li a {
+    color: #b2b2b2;
+    font-size: 18px;
+}
