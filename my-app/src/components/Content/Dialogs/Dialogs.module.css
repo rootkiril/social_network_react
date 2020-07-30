@@ -327,11 +327,10 @@
 
 .messageInnerDt > p {
     float: right;
-    width: 60%;
     background-color: #0f91b8;
     font-size: 14px;
     line-height: 22px;
-    padding: 10px 35px 10px 35px;
+    padding: 10px;
     color: #fff;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
