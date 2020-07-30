@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2531bd37-1381-4e48-93ea-51dc8a3a06f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Dialogs/ChatDialog/ChatDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Dialogs/ListDialogs/ListDialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Dialogs/ChatDialog/ChatDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Dialogs/ChatDialog/ChatDialog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
       <workItem from="1595959251931" duration="10865000" />
       <workItem from="1596002262034" duration="2976000" />
       <workItem from="1596005296026" duration="25855000" />
+      <workItem from="1596089277872" duration="5952000" />
     </task>
     <servers />
   </component>

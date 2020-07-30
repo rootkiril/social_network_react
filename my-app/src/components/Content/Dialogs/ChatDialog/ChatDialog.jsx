@@ -3,7 +3,7 @@ import s from "../Dialogs.module.css"
 
 const ChatDialog = () => {
     return (
-        <div className={"col-lg-8 col-md-12 " + s.pdRightNone + " " + s.pdLeftNone}>
+        <div className={"col-lg-8 col-md-12 " + s.pdRightNone + " " + s.pdLeftNone + " " + s.noPdd}>
             <div className={s.mainConversationBox}>
                 <div className={s.messageBarHead}>
                     <div className={s.usrMsgDetails}>
@@ -18,12 +18,11 @@ const ChatDialog = () => {
                     <a href="#1" title=""><i className="fa fa-ellipsis-v"></i></a>
                 </div>
                 <div className={s.messagesLine}>
+                    <div className={s.msgListWrapper}>
                         <div className={s.mainMessageBox + " " + s.taRight}>
                             <div className={s.messageDt}>
                                 <div className={s.messageInnerDt}>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                        rutrum congue leo eget malesuada. Vivamus suscipit tortor eget
-                                        felis porttitor.</p>
+                                    <p>1</p>
                                 </div>
                                 <span>Sat, Aug 23, 1:08 PM</span>
                             </div>
@@ -31,6 +30,18 @@ const ChatDialog = () => {
                                 <img src={"./img/user.png"} alt=""/>
                             </div>
                         </div>
+                        <div className={s.mainMessageBox + " " + s.taRight}>
+                            <div className={s.messageDt}>
+                                <div className={s.messageInnerDt}>
+                                    <p>2</p>
+                                </div>
+                                <span>Sat, Aug 23, 1:08 PM</span>
+                            </div>
+                            <div className={s.messgUsrImg}>
+                                <img src={"./img/user.png"} alt=""/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className={s.messageSendArea}>
                     <form>

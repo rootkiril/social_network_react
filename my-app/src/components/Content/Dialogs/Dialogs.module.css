@@ -5,6 +5,7 @@
 
 .noPdd {
     padding: 0;
+    margin-top: 10px;
 }
 
 .msgList {
@@ -94,7 +95,7 @@
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     border-radius: 100px;
-    background-color: #e44d3a;
+    background-color: #0f91b8;
     position: absolute;
     top: -3px;
     right: 0;
@@ -151,7 +152,7 @@
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     border-radius: 100px;
-    background-color: #e77667;
+    background-color: #0f91b8;
     text-align: center;
     line-height: 25px;
     font-size: 13px;
@@ -241,7 +242,7 @@
 .mfField button {
     float: left;
     width: 17%;
-    background-color: #e44d3a;
+    background-color: #0f91b8;
     height: 45px;
     text-align: center;
     color: #fff;
@@ -272,8 +273,12 @@
     width: 100%;
     position: relative;
     margin-bottom: 15.5px;
+    display: flex;
+    flex-direction: row-reverse;
 }
-
+.mainMessageBox.taRight {
+    float: right;
+}
 .messgUsrImg {
     position: absolute;
     bottom: 25px;
@@ -290,10 +295,15 @@
     border-radius: 100px;
 }
 
-.mainMessageBox.taRight {
-    float: right;
+.messagesLine {
+    display: flex;
+    flex-direction: column-reverse;
 }
-
+.msgListWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
 .messageDt {
     float: left;
     width: auto;
@@ -318,7 +328,7 @@
 .messageInnerDt > p {
     float: right;
     width: 60%;
-    background-color: #e44d3a;
+    background-color: #0f91b8;
     font-size: 14px;
     line-height: 22px;
     padding: 10px 35px 10px 35px;
@@ -346,5 +356,5 @@
 .mainMessageBox.taRight .messgUsrImg {
     left: auto;
     right: 20px;
-    bottom: 25px;
+    bottom: 15px;
 }
