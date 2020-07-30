@@ -19,7 +19,7 @@
 .msgTitle {
     float: left;
     width: 100%;
-    padding: 36px 20px;
+    padding: 25px 20px;
 }
 
 .msgTitle > h3 {
@@ -178,8 +178,8 @@
 .messageBarHead {
     float: left;
     width: 100%;
-    /*background-color: #fff;*/
-    padding: 20px;
+    background-color: #fffffff7;
+    padding: 10px 20px;
     border-bottom: 1px solid #eaeaea;
     position: absolute;
     top: 0;
@@ -196,8 +196,7 @@
     float: left;
     width: 100%;
     height: 604px;
-    display: flex;
-    align-items: flex-end;
+    overflow-y: auto;
 }
 
 .messagesBlock {
@@ -208,6 +207,64 @@
     outline: 0;
     direction: ltr;
     max-height: none;
+}
+
+.messageSendArea {
+    float: left;
+    width: 100%;
+    background-color: #f3f5f7;
+    padding: 25px 20px 15px 20px;
+    border: 1px solid #eeeeee;
+}
+
+.messageSendArea form {
+    float: left;
+    width: 100%;
+}
+
+.mfField {
+    float: left;
+    width: 100%;
+}
+
+.mfField input {
+    float: left;
+    width: 80%;
+    background-color: #fff;
+    color: #b2b2b2;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1px solid #e6e6e6;
+    height: 45px;
+}
+
+.mfField button {
+    float: left;
+    width: 17%;
+    background-color: #e44d3a;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.messageSendArea form > ul {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.messageSendArea form > ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.messageSendArea form > ul li a {
+    color: #b2b2b2;
+    font-size: 18px;
 }
 
 .mainMessageBox {
@@ -231,13 +288,6 @@
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     border-radius: 100px;
-}
-
-.mainMessageBox {
-    float: left;
-    width: 100%;
-    position: relative;
-    margin-bottom: 15.5px;
 }
 
 .mainMessageBox.taRight {
@@ -297,63 +347,4 @@
     left: auto;
     right: 20px;
     bottom: 25px;
-}
-
-
-.messageSendArea {
-    float: left;
-    width: 100%;
-    background-color: #f3f5f7;
-    padding: 25px 20px 15px 20px;
-    border: 1px solid #eeeeee;
-}
-
-.messageSendArea form {
-    float: left;
-    width: 100%;
-}
-
-.mfField {
-    float: left;
-    width: 100%;
-}
-
-.mfField input {
-    float: left;
-    width: 80%;
-    background-color: #fff;
-    color: #b2b2b2;
-    font-size: 16px;
-    padding: 0 15px;
-    border: 1px solid #e6e6e6;
-    height: 45px;
-}
-
-.mfField button {
-    float: left;
-    width: 17%;
-    background-color: #e44d3a;
-    height: 45px;
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    border: 0;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-.messageSendArea form > ul {
-    float: left;
-    width: 100%;
-    margin-top: 15px;
-}
-
-.messageSendArea form > ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.messageSendArea form > ul li a {
-    color: #b2b2b2;
-    font-size: 18px;
 }
