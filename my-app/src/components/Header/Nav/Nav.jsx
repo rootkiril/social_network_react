@@ -14,7 +14,7 @@ const Nav = () => {
                     </a>
                 </li>
                 {/*<li>*/}
-                {/*    <a href="#1" title="Companies">*/}
+                {/*    <a href="#?" title="Companies">*/}
                 {/*  <span>*/}
                 {/*    <img src={"./img/companies.png"} alt="Companies" />*/}
                 {/*  </span>*/}
@@ -22,7 +22,7 @@ const Nav = () => {
                 {/*    </a>*/}
                 {/*</li>*/}
                 {/*<li>*/}
-                {/*    <a href="#1" title="Projects">*/}
+                {/*    <a href="#?" title="Projects">*/}
                 {/*  <span>*/}
                 {/*    <img src={"./img/projects.png"} alt="Projects" />*/}
                 {/*  </span>*/}
@@ -38,7 +38,7 @@ const Nav = () => {
                     </a>
                 </li>
                 {/*<li>*/}
-                {/*    <a href="#1" title="Jobs">*/}
+                {/*    <a href="#?" title="Jobs">*/}
                 {/*  <span>*/}
                 {/*    <img src={"./img/jobs.png"} alt="Jobs" />*/}
                 {/*  </span>*/}
