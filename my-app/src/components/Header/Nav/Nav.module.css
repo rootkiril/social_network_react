@@ -1,30 +1,30 @@
 .navigation {
-    float: left;
-    width: 60%;
-    text-align: right;
-    padding-right: 13px;
+  float: left;
+  width: 60%;
+  text-align: right;
+  padding-right: 13px;
 }
 .navigation ul {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .navigation ul li {
-    display: inline-block;
-    text-align: center;
-    padding: 13px 13px;
-    position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 13px;
+  position: relative;
 }
 .navigation ul li a {
-    color: #ffffff;
-    font-size: 14px;
-    transition: all 0.4s ease-in;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.4s ease-in;
 }
 .navigation ul li:hover {
-    background-color: #0c83a7;
+  background-color: #0c83a7;
 }
 .navigation ul li span {
-    display: block;
-    height: 14px;
+  display: block;
+  height: 14px;
 }
 .navigation ul li span img {
-    float: none;
+  float: none;
 }

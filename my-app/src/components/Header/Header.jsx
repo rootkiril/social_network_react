@@ -6,18 +6,18 @@ import SearchBar from "./SearchBar/SearchBar";
 import UserAccount from "./UserAccount/UserAccount";
 
 const Header = () => {
-    return (
-        <header>
-            <div className="container">
-                <div className={s.headerData}>
-                    <Logo/>
-                    <SearchBar/>
-                    <Nav/>
-                    <UserAccount/>
-                </div>
-            </div>
-        </header>
-    );
+  return (
+    <header>
+      <div className="container">
+        <div className={s.headerData}>
+          <Logo />
+          <SearchBar />
+          <Nav />
+          <UserAccount />
+        </div>
+      </div>
+    </header>
+  );
 };
 
 export default Header;
