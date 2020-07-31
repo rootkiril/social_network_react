@@ -10,16 +10,21 @@
 .navigation ul li {
   display: inline-block;
   text-align: center;
-  padding: 13px 13px;
   position: relative;
 }
 .navigation ul li a {
-  color: #ffffff;
+  display: block;
+  padding: 10px;
   font-size: 14px;
   transition: all 0.4s ease-in;
+  text-align: center;
+  color: #fff;
 }
-.navigation ul li:hover {
+.navigation ul li a.active {
   background-color: #0c83a7;
+}
+.navigation ul li a p {
+  color: #ffffff;
 }
 .navigation ul li span {
   display: block;
