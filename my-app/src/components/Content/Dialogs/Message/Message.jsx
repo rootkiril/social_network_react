@@ -11,7 +11,7 @@ const MessageBox = (props) => {
           <span>{props.date}</span>
         </div>
         <div className={s.messgUsrImg}>
-          <img src={"./img/user.png"} alt="Avatar" />
+          <img src={"./img/user2.jpg"} alt="Avatar" />
         </div>
       </div>
     );

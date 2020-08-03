@@ -1,0 +1,159 @@
+
+.mainLeftSidebar {
+    float: left;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.userProfile {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fullWidth {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.userProImg {
+    float: none;
+    height: 180px;
+    width: 180px;
+    border: 5px solid #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    margin: -95px auto auto;
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.userTabSec {
+    float: left;
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+}
+
+.userTabSec h3 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.userProStatus {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 27px;
+}
+
+.flwHr {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.flwHr li:last-child {
+    margin-right: 0;
+}
+
+.flwHr li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.flwHr li a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 15px;
+    border-radius: 3px;
+}
+
+.flwHr li a i {
+    padding-right: 5px;
+}
+
+.flww {
+    background-color: #53d690;
+}
+
+.msg {
+    background-color: #51a5fb;
+}
+
+.flwStatus {
+    float: left;
+    width: 100%;
+}
+
+.flwStatus li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.flwStatus li span {
+    color: #686868;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.flwStatus li b {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flwStatus li:last-child {
+    margin-right: 0;
+}
+
+.socialLinks {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.socialLinks li {
+    float: left;
+    width: 100%;
+    padding: 15px 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.socialLinks li a {
+    float: left;
+    width: 100%;
+    color: #51a5fb;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.socialLinks li a i {
+    padding-right: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}

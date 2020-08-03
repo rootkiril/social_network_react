@@ -1,0 +1,129 @@
+.postBar {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px #e4e4e4;
+}
+.postTopbar {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.usyDt {
+    float: left;
+    margin-bottom: 10px;
+
+}
+.usyAvatar {
+    display: block;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.usyName {
+    float: left;
+    margin-left: 15px;
+}
+.usyName h3 {
+    color: #000000;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.usyName span {
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.usyName span i {
+    margin-right: 5px;
+}
+.edOpts {
+    float: right;
+    position: relative;
+    top: 7px;
+}
+.edOpts > a {
+    color: #b2b2b2;
+    font-size: 24px;
+    float: right;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+.edOptions {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 130px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.28);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.28);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.28);
+    box-shadow: 0 0 10px rgba(0,0,0,0.28);
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+}
+.edOptions li {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.edOptions li a {
+    color: #686868;
+    font-size: 14px;
+    font-weight: 600;
+}
+.jobDescp {
+    float: left;
+    width: 100%;
+}
+.jobDescp h3 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.jobDescp > p {
+    color: #666666;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.jobStatusBar {
+    border-top: 1px solid #e5e5e5;
+}
+.jobStatusBar {
+    float: left;
+    width: 100%;
+}
+.likeCom {
+    float: left;
+    margin-top: 20px;
+}
+.likeCom li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.likeCom li a {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+}
+.likeCom li a i {
+    margin-right: 5px;
+}

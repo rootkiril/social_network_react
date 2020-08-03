@@ -1,0 +1,50 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+main {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+section.coverSec {
+    float: left;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainSection,
+.mainSectionData {
+    float: left;
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+.starDescp {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.starDescp span {
+    color: #686868;
+    font-size: 16px;
+    margin: auto;
+}
+.mainWsSec {
+    float: left;
+    width: 100%;
+}
+.productFeedTab {
+    float: left;
+    width: 100%;
+}
+.postsSection {
+    float: left;
+    width: 100%;
+}

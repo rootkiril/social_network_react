@@ -13,7 +13,7 @@ const Interlocutor = (props) => {
         activeClassName={s.active}
       >
         <div className={s.usrMsImg}>
-          <img src={"./img/user.png"} alt="User" />
+          <img src={"./img/user2.jpg"} alt="User" />
           <span className={s.msgStatus} />
         </div>
         <div className={s.usrMgInfo}>
