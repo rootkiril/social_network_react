@@ -32,7 +32,7 @@ const Post = (props) => {
                 <div className={s.jobStatusBar}>
                     <ul className={s.likeCom}>
                         <li>
-                            <a href="#"><i className="las la-heart"/>{props.likeCounter}</a>
+                            <a href="#1"><i className="las la-heart"/>{props.likeCounter}</a>
                         </li>
                     </ul>
                 </div>

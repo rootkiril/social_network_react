@@ -3,32 +3,18 @@ import s from "./Dialogs.module.css";
 import Interlocutor from "./Interlocutor/Interlocutor";
 import MessageBox from "./Message/Message"
 
-const Dialogs = () => {
-    let dialogsData = [
-        {id: "1", username: "Kiril"},
-        {id: "2", username: "Sasha"},
-        {id: "3", username: "Ivan"},
-    ];
+const Dialogs = (props) => {
 
-    let messageData = [
-        {
-            id: "1",
-            date: "12.06.2020",
-            message: "Philosophiae pullum etsi ut adiunxit",
-        },
-        {
-            id: "2",
-            date: "13.06.2020",
-            message: "Voluptatem oblivisci enim duo nostra",
-        },
-        {id: "3", date: "14.06.2020", message: "Tecum et est doctissimos quid"},
-    ];
-
-    let DialogsList = dialogsData.map((dialog) => (
-        <Interlocutor id={dialog.id} username={dialog.username}/>
+    let DialogsInterlocutor = props.state.dialogsData.map((dialog) => (
+        <Interlocutor id={dialog.id}
+                      username={dialog.username}
+        />
     ));
-    let DialogMessage = messageData.map((message) => (
-        <MessageBox id={message.id} message={message.message} date={message.date}/>
+    let DialogMessage = props.state.messageData.map((message) => (
+        <MessageBox id={message.id}
+                    message={message.message}
+                    date={message.date}
+        />
     ));
     return (
         <div className="container">
@@ -53,7 +39,7 @@ const Dialogs = () => {
                             </div>
                             <div className={s.messagesList}>
                                 {/* Dialog List */}
-                                <ul>{DialogsList}</ul>
+                                <ul>{DialogsInterlocutor}</ul>
                                 {/* End  */}
                             </div>
                         </div>

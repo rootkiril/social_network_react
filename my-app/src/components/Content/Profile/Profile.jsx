@@ -4,7 +4,7 @@ import LeftBar from "./LeftBar/LeftBar"
 import MainSection from "./MainSection/MainSection";
 
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={s.wrapper}>
             {/* eslint-disable-next-line react/style-prop-object */}
@@ -17,7 +17,7 @@ const Profile = () => {
                         <div className={s.mainSectionData}>
                             <div className="row">
                                 <LeftBar/>
-                                <MainSection/>
+                                <MainSection state={props.state}/>
                             </div>
                         </div>
                     </div>
