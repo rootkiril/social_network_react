@@ -23,7 +23,7 @@ const Dialogs = (props) => {
                     <div className={"col-lg-4 col-md-12 " + s.noPdd}>
                         <div className={s.msgList}>
                             <div className={s.msgTitle}>
-                                <h3>Dialogs</h3>
+                                <h3>Messages</h3>
                                 <ul>
                                     <li>
                                         <a href="#?" title="">

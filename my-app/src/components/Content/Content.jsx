@@ -9,7 +9,7 @@ const Content = (props) => {
     return (
         <div className={s.mainSection}>
             <Route path="/profiles" render={() => <Profiles/>}/>
-            <Route path="/dialogs" render={() => <Dialogs
+            <Route path="/messages" render={() => <Dialogs
                 state={props.state.dialogsPage}/>}
             />
             <Route path="/profile" render={() => <Profile

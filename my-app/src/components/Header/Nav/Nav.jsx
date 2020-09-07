@@ -23,11 +23,11 @@ const Nav = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/dialogs" title="Dialogs" activeClassName={s.active}>
+          <NavLink to="/messages" title="Messages" activeClassName={s.active}>
             <span>
               <img src={"./img/dialogs.png"} alt="Dialogs" />
             </span>
-            <p>Dialogs</p>
+            <p>Messages</p>
           </NavLink>
         </li>
         <li>
